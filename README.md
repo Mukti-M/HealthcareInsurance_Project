@@ -1,12 +1,13 @@
-# Project XYZ
+# Project Healthcare Insurance
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+**Healthcare Insurance Project** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+* Dataset Source (https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance).
+This Dataset contain information about personal attributes, Geographic factors and their impact on insurance charges. It also helps to understand data insights for attributes which influence insurance cost.
 
 
 ## Business Requirements
