@@ -31,13 +31,12 @@ Geographic Analysis : Visualise the impact of geographic regions on insurance ch
 
 ## Analysis techniques used
 * List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* Correlation Analysis : Visualise correlations between different attributes and insurance charges.
+* Predictive Analysis : Develop and visualise predictive reports for estimating insurance costs.
+* Geographic Analysis : Visualise the impact of geographic regions on insurance charges.
 
 ## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+* Follow GDPR guideline to protect dataset and maintain data integrity of person.
 
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
@@ -70,7 +69,13 @@ Geographic Analysis : Visualise the impact of geographic regions on insurance ch
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+*import numpy as np    # importing numpy functions
+*import pandas as pd   # panda functions
+*import matplotlib.pyplot as plt
+*import seaborn as sns
+*sns.set_style('whitegrid')
+*from sklearn.pipeline import Pipeline
+*from feature_engine.encoding import OneHotEncoder
 
 
 ## Credits 
