@@ -7,11 +7,15 @@
 
 ## Dataset Content
 * Dataset Source (https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance).
-This Dataset contain information about personal attributes, Geographic factors and their impact on insurance charges. It also helps to understand data insights for attributes which influence insurance cost.
+This Dataset contain information about personal attributes, Geographic factors and their impact on insurance charges. It also helps to understand data insights for different attributes which influence insurance cost.
 
 
 ## Business Requirements
 * Describe your business requirements
+Descriptive Statistics : Display basic statistics such as average insurance charges by age, gender, and region.
+Correlation Analysis : Visualise correlations between different attributes and insurance charges.
+Predictive Analysis : Develop and visualise predictive reports for estimating insurance costs.
+Geographic Analysis : Visualise the impact of geographic regions on insurance charges.
 
 
 ## Hypothesis and how to validate?
