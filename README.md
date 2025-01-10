@@ -11,10 +11,10 @@ This dataset contains information on the relationship between personal attribute
 
 ## Business Requirements
 * Describe your business requirements
-Descriptive Statistics which Display basic statistics such as average insurance charges by age, gender, and region.
-Correlation Analysis to  Visualise correlations between different attributes and insurance charges.
-Predictive Analysis to  Develop and visualise predictive reports for estimating insurance costs.
-Geographic Analysis to Visualise the impact of geographic regions on insurance charges.
+* Descriptive Statistics which Display basic statistics such as average insurance charges by age, gender, and region.
+* Correlation Analysis to  Visualise correlations between different attributes and insurance charges.
+* Predictive Analysis to  Develop and visualise predictive reports for estimating insurance costs.
+* Geographic Analysis to Visualise the impact of geographic regions on insurance charges.
 
 
 ## Hypothesis and how to validate?
@@ -26,8 +26,8 @@ Statement: Smokers have higher insurance charges compared to non-smokers.
 Hypothesis 2:
 Statement: BMI significantly influences insurance charges, with higher BMI leading to higher charges.
 •	Validation:
-	          Use correlation analysis to measure the relationship between BMI and charges.
-              Create a regression model and assess the significance of BMI as a predictor.
+	         Use correlation analysis to measure the relationship between different attributes and insurance charges.
+              Create a regression model and assess the significance of BMI and Region affects insurance charge cost.
 Hypothesis 3:
 •	Statement: "Insurance charges vary significantly across geographic regions."
 •	Validation:
@@ -92,12 +92,12 @@ Hypothesis 4:
 ## Main Data Analysis Libraries
 *import numpy as np    # importing numpy functions
 *import pandas as pd   # panda functions
-*import matplotlib.pyplot as plt
-*import seaborn as sns
+*import matplotlib.pyplot as plt  # importing for plotting different analysis visualisation
+*import seaborn as sns            # built in libraryoffers built-in themes and colour palettes for styling matplotlib graphics to differtiate data insight for better understanding.
 *sns.set_style('whitegrid')
 *from sklearn.pipeline import Pipeline
 *from feature_engine.encoding import OneHotEncoder
-*import plotly.express as px
+*import plotly.express as px     # importing for interacive web based plotting different analysis visualisation
 
 
 ## Credits 
