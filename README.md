@@ -119,4 +119,4 @@ Hypothesis 4:
 
 
 ## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+* Thank you code Institute  the people who provided support through this project.
