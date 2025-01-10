@@ -47,11 +47,14 @@ Hypothesis 4:
 * Visualisation of data insights reports helps to make business decisions and improve efficiency.
 
 ## The rationale to map the business requirements to the Data Visualisations
-* Create new features such as body mass index (BMI) categories.
-* Display basic statistics such as average insurance charges by age, gender, and region.
-* Visualise correlations between different attributes and insurance charges.
-* Develop and visualise predictive reports for estimating insurance costs.
-* Visualise the impact of geographic regions on insurance charges.
+colons can be used to align columns.
+
+| Business Requirement       | Visualization Type  |  Purpose   |
+| :-------------: |:-------------:| :-----:|
+| Identify high-cost regions | Treemap | how regions with the highest average insurance charges. |
+| Understand the impact of region     | Scatterplot,Boxplot  | Compare insurance charges for different regions. |
+| Correlation analysis of factors | Heatmap   | Highlight relationships between attributes like BMI, age, and charges.|
+| Analyse age-related trends in costs | Line chart or bar chart  |  Display changes in average charges across different age groups.|
 
 ## Analysis techniques used
 * Descriptive Statistics gives uderstanding of basic statistics such as average insurance charges by age, gender, and region
@@ -60,7 +63,7 @@ Hypothesis 4:
 * Geographic Analysis used to Visualise the impact of geographic regions on insurance charges.
 
 ## Ethical considerations
-* Follow GDPR guideline to protect dataset and maintain data integrity of person.
+* Follow GDPR guidelines to protect dataset and maintain data integrity of person.
 * Engage with healthcare professionals, insurance industry experts, and ethicists to 
   ensure the project aligns with ethical and industry standards.
 * Data Transperncy
@@ -76,22 +79,9 @@ Hypothesis 4:
   maintain accuracy and fairness.
 
 
-## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
-
-## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
-
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
-
-
+* Some of challenges did face while creating new feature and Visualising Treemap Reports for data insights, with the help of and what strategies were used to overcome these challenges?
+* Would like to learn differnt tools for analysing the dataset to visualise more detailed reports for better undestanding for data insights which beneficial for accuracy in decision making process.
 
 ## Main Data Analysis Libraries
 *import numpy as np    # importing numpy functions
@@ -115,7 +105,6 @@ The content has been referred by open source eg. google site. The dataset referr
 ### Media
 
 - The images used for the gallery page were taken from open-source site like Google. 
-
 
 ## Acknowledgements (optional)
 * Thank you code Institute giving this opportunity for explore dataset using different analsyis tools and visualise reports.
