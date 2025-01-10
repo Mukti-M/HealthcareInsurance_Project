@@ -52,7 +52,7 @@ colons can be used to align columns.
 | Business Requirement       | Visualization Type  |  Purpose   |
 | :-------------: |:-------------:| :-----:|
 | Identify high-cost regions | Treemap | how regions with the highest average insurance charges. |
-| Understand the impact of region     | Scatterplot,Boxplot  | Compare insurance charges for different regions. |
+| Understand the impact of region     | Scatterplot, Boxplot  | Compare insurance charges for different regions. |
 | Correlation analysis of factors | Heatmap   | Highlight relationships between attributes like BMI, age, and charges.|
 | Analyse age-related trends in costs | Line chart or bar chart  |  Display changes in average charges across different age groups.|
 
