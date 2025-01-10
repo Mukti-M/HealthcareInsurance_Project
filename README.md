@@ -43,7 +43,7 @@ This dataset contains information on the relationship between personal attribute
 * Objectives -
 Data Exploration and Insights- Identify key attributes influencing healthcare insurance costs.
 Predictive Analytics- Develop models to estimate insurance charges based on customer profiles.
-Visualization- Create user-friendly visualizations to present findings effectively.
+Visualisation- Create user-friendly visualizations to present findings effectively.
 Ethical Compliance- Ensure data privacy, fairness, and unbiased analysis.
 * Deliverables -
 Data Cleaning and Preprocessing- Handle missing, duplicates, and inconsistent data.
@@ -66,8 +66,8 @@ Final Report- Comprehensive documentation of methodology, results, and recommend
 | Correlation analysis of factors | Heatmap, Scatterplot  | Highlight relationships between attributes like BMI, age, and charges.|
 | Analyse age-related trends in costs | Area Plot, Bar chart  |  Display changes in average charges across different age groups.|
 
-## Analysis techniques used
-* Descriptive Statistics gives uderstanding of basic statistics such as average insurance charges by age, gender, and region
+## Analysis techniques used in the project are
+* Descriptive Statistics gives uderstanding of basic statistics such as average insurance charges by age, gender, and region.
 * Correlation Analysis used to Visualise correlations between different attributes and insurance charges.
 * Predictive Analysis used to  Develop and visualise predictive reports for estimating insurance costs.
 * Geographic Analysis used to Visualise the impact of geographic regions on insurance charges.
@@ -107,7 +107,7 @@ Statistical Analysis - Performed exploratory data analysis (EDA) to identify out
 Technical Challenges - 
       * Library Deprecations and Warnings- Encountered deprecation warnings from libraries like pandas and plotly, which could disrupt the workflow.
       * Code Errors and Bugs- Faced various errors such as KeyError, TypeError, and          IndentationError during data manipulation and visualization stages.
-      * Visualization Constraints- Difficulty in customizing visualizations (e.g., resizing images, 
+      * Visualisation Constraints- Difficulty in customizing visualisations (e.g., resizing images, 
       managing hover data) using Markdown and Plotly.
 * Strategies implemented to overcome Technical challenges 
 Staying Updated- 
@@ -116,13 +116,13 @@ Staying Updated-
        * Systematic Debugging - Utilized detailed error messages to identify and rectify issues, such as replacing incorrect functions (pd.get_var to pd.get_dummies) and fixing syntax errors.
        * Code Reviews and Testing - Implemented thorough code reviews and debugging to catch and resolve bugs early in the development process.
        * Warnings Management: Employed the warnings module in Python to selectively ignore non-critical warnings, ensuring a cleaner output without suppressing important alerts.
-Visualization and Reporting Challenges -
+Visualisation and Reporting Challenges -
       * Effective Communication- Creating visualizations that are both informative and easily interpretable by users(stakeholders) with varying levels of technical expertise.
-      * Customization Limitations- Overcoming the limitations of visualization libraries (e.g., Markdown's inability to handle image resizing) to produce professional and clear reports.
-      * Interactive Visualizations - Balancing the interactivity of visualizations with performance and compatibility across different platforms.
+      * Customisation Limitations- Overcoming the limitations of visualisation libraries (e.g., Markdown's inability to handle image resizing) to produce professional and clear reports.
+      * Interactive Visualizations - Balancing the interactivity of visualisations with performance and compatibility across different platforms.
 Strategies to overcome -
-      * Plotly for Interactivity-  Utilized Plotly's interactive features to create dynamic visualizations that allow stakeholders to explore data insights in-depth.
-      * Seaborn and Matplotlib for Clarity- Employed Seaborn and Matplotlib for creating clear and aesthetically pleasing static plots when interactivity was not required.Visualization and Reporting Challenges
+      * Plotly for Interactivity-  Utilised Plotly's interactive features to create dynamic visualisations that allow stakeholders to explore data insights in-depth.
+      * Seaborn and Matplotlib for Clarity- Employed Seaborn and Matplotlib for creating clear and aesthetically pleasing static plots when interactivity was not required.Visualisation and Reporting Challenges
 Task Management - 
       * Project Board - Used tools like kanban board to organize tasks, assign responsibilities, and monitor progress. 
 To implement new skills and learn new tools will follow below points - 
