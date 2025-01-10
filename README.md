@@ -149,7 +149,7 @@ The content has been referred by open source eg. google site. The dataset referr
 
 ### Content 
 
-*  The Text was taken from Kaggle and written after analysing the dataset and business requiremnts for data insights to visulise reports on Insurance cost influenced by different attributes for future decision making.
+*  The Text was taken from Kaggle and written after analysing the dataset and business requiremnts for data insights to visulise reports on Insurance cost influenced by different attributes for future decision making. Some of time used AI tool to understand the concept and more undersatnding.
 * some of references sites used for coding-
   https://plotly.com/python/
   https://feature-engine.trainindata.com/en/latest/user_guide/imputation/index.html
