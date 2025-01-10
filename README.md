@@ -97,6 +97,7 @@ Hypothesis 4:
 *sns.set_style('whitegrid')
 *from sklearn.pipeline import Pipeline
 *from feature_engine.encoding import OneHotEncoder
+*import plotly.express as px
 
 
 ## Credits 
