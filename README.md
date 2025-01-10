@@ -1,8 +1,8 @@
 ## Project - Healthcare Insurance
 
-**Healthcare Insurance Project** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+**Healthcare Insurance Project** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation predicting insurance costs to provide actionable insights for stakeholders, such as insurance providers, policymakers, and healthcare institutions.This project leverages data analytics,feature engine, and visualization techniques to uncover patterns and relationships between various factors affecting insurance charges.The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
 
-<img src="https:/workspace/HealthcareInsurance_Project/HealthInsurance.jpg" alt="Healthcare Insurance Project" width="600" height="200" style="border:5px solid;">
+<img src="https:/workspace/HealthcareInsurance_Project/HealthInsurance.jpg" alt="Healthcare Insurance Project" width="600" height="250" style="border:5px solid;">
 
 ## Dataset Content
 * Dataset Source (https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance).
@@ -18,22 +18,22 @@ This dataset contains information on the relationship between personal attribute
 
 ## Hypothesis and how to validate?
 * Hypothesis 1:
-Statement: Smokers have higher insurance charges compared to non-smokers.
-	Validation:
+ Statement- Smokers have higher insurance charges compared to non-smokers.
+	Validation-
      Perform a statistical comparison between the average charges of smokers and non-smokers.
      Visualize the difference using boxplots or bar plots.
-Hypothesis 2:
-Statement: BMI significantly influences insurance charges, with higher BMI leading to higher charges.
-•	Validation:
+* Hypothesis 2:
+ Statement- BMI significantly influences insurance charges, with higher BMI leading to higher charges.
+    Validation-
 	         Use correlation analysis to measure the relationship between different attributes and insurance charges.
               Create a regression model and assess the significance of BMI and Region affects insurance charge cost.
-Hypothesis 3:
-•	Statement: "Insurance charges vary significantly across geographic regions."
-•	Validation:
+* Hypothesis 3-
+	Statement- Insurance charges vary significantly across geographic regions.
+   Validation:
                Visualize regional variations with bar charts or boxplots.
-Hypothesis 4:
-•	Statement: "Age and number of children have a smaller impact on charges compared to smoking status and BMI."
-•	Validation:
+* Hypothesis 4-
+	Statement -  Age and number of children have a smaller impact on charges compared to smoking status and BMI.
+  	Validation- 
 	           Build a decision tree or random forest model to evaluate feature importance.
 	           Analyze the effect sizes of these variables in a regression model.
 
@@ -147,4 +147,4 @@ The content has been referred by open source eg. google site. The dataset referr
 
 ## Acknowledgements (optional)
 * Thank you code Institute giving this opportunity for explore dataset using different analsyis tools and visualise reports.
-Thank you Vasi guided me to trubleshoot the issue. Thank you Neil for his coaching and guidance on Data analytics concepts which help to understand various tools, library to analyse dataset and Visualise user interactive reports for future decision making. Thank you all my classmates who provided support through this project.
+Thank you Vasi who guided and supported throughout to trubleshoot the issue. Thank you Neil for his coaching and guidance on Data analytics concepts which help to understand various tools, library, function tools to analyse dataset and Visualise user interactive reports for future decision making. Thank you all my classmates who provided support through this project.
