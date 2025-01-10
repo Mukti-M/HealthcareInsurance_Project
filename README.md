@@ -106,8 +106,20 @@ Staying Updated-
        * Systematic Debugging - Utilized detailed error messages to identify and rectify issues, such as replacing incorrect functions (pd.get_var to pd.get_dummies) and fixing syntax errors.
        * Code Reviews and Testing - Implemented thorough code reviews and debugging to catch and resolve bugs early in the development process.
        * Warnings Management: Employed the warnings module in Python to selectively ignore non-critical warnings, ensuring a cleaner output without suppressing important alerts.
+Visualization and Reporting Challenges -
+      * Effective Communication- Creating visualizations that are both informative and easily interpretable by users(stakeholders) with varying levels of technical expertise.
+      * Customization Limitations- Overcoming the limitations of visualization libraries (e.g., Markdown's inability to handle image resizing) to produce professional and clear reports.
+      * Interactive Visualizations - Balancing the interactivity of visualizations with performance and compatibility across different platforms.
+Strategies to overcome -
+      * Plotly for Interactivity-  Utilized Plotly's interactive features to create dynamic visualizations that allow stakeholders to explore data insights in-depth.
+      * Seaborn and Matplotlib for Clarity- Employed Seaborn and Matplotlib for creating clear and aesthetically pleasing static plots when interactivity was not required.Visualization and Reporting Challenges
+Task Management - 
+      * Project Board - Used tools like kanban board to organize tasks, assign responsibilities, and monitor progress. 
+To implement new skills and learn new tools will follow below points - 
+      * Structured Learning- Enroll in relevant online courses (e.g., Coursera, edX, DataCamp).
+      * Hands-On Projects- Undertake new projects or add features to existing ones to practice and solidify skills.
+      * Networking and Knowledge Sharing- Join professional communities, attend webinars, and participate in hackathons to stay updated on industry trends.
 
-* Would like to learn differnt tools for analysing the dataset to visualise more detailed reports for better undestanding for data insights which beneficial for accuracy in decision making process.
 
 ## Main Data Analysis Libraries
 *import numpy as np    # importing numpy functions
