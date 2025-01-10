@@ -18,36 +18,46 @@ This dataset contains information on the relationship between personal attribute
 
 ## Hypothesis and how to validate?
 * Hypothesis 1:
- Statement- Smokers have higher insurance charges compared to non-smokers.
+ Statement- Estimating Average insurance charges by age, gender.
 	Validation-
-     Perform a statistical comparison between the average charges of smokers and non-smokers.
+     Perform a Basic statistical comparison between the average charges influenced by age and gender.
      Visualize the difference using boxplots or bar plots.
 * Hypothesis 2:
  Statement- BMI significantly influences insurance charges, with higher BMI leading to higher charges.
     Validation-
 	         Use correlation analysis to measure the relationship between different attributes and insurance charges.
-              Create a regression model and assess the significance of BMI and Region affects insurance charge cost.
+           Create a regression model and assess the significance of BMI and Region affects insurance charge cost.
 * Hypothesis 3-
 	Statement- Insurance charges vary significantly across geographic regions.
    Validation:
-               Visualize regional variations with bar charts or boxplots.
+           Visualize regional variations with bar charts or boxplots.
 * Hypothesis 4-
-	Statement -  Age and number of children have a smaller impact on charges compared to smoking status and BMI.
+	Statement -  Predictive reports for estimating insurance costs impacted by different attributes 
   	Validation- 
-	           Build a decision tree or random forest model to evaluate feature importance.
-	           Analyze the effect sizes of these variables in a regression model.
+	          Build a TreeMap, Area Plot and Box plot to evaluate predicative insurance charges influenced by region.
+	          
 
 
 ## Project Plan
-* Ensure Dataset is properly downloded and saved properly.
-* Loading the dataset using pandas and Cleaned data handling the missing values. Transformed the cleaned dataset into new dataframe.
-* Updating Kanban Board to see status of project workflow.
-* Adding new feature category 'bmi' as per business requirement.
-* Apply different analysis method to visualise data insights for insurance cost influenced by other data attributes.
-* Visualisation of data insights reports helps to make business decisions and improve efficiency.
+* Project scope - The Healthcare Insurance Project aims to analyse insurance cost drivers, predict charges, and provide actionable insights through advanced analytics and machine learning models. The project targets insurance providers, healthcare institutions, and policymakers to improve decision-making and optimize strategies.
+* Objectives -
+Data Exploration and Insights- Identify key attributes influencing healthcare insurance costs.
+Predictive Analytics- Develop models to estimate insurance charges based on customer profiles.
+Visualization- Create user-friendly visualizations to present findings effectively.
+Ethical Compliance- Ensure data privacy, fairness, and unbiased analysis.
+* Deliverables -
+Data Cleaning and Preprocessing- Handle missing, duplicates, and inconsistent data.
+Encode categorical variables and normalize numerical features.
+Exploratory Data Analysis (EDA)- Descriptive statistics, correlation analysis, and key trends.
+Visualisations for regional insights.
+Predictive Analysis Models- Develop and visualise reports for cost prediction (e.g., Treemap).
+Interactive Dashboards- Visualisation of insurance cost drivers and predictions.
+Region-wise analysis, analysis of Personal attributes affecting insurance cost like age,sex,bmi.
+Final Report- Comprehensive documentation of methodology, results, and recommendations.
+
+
 
 ## The rationale to map the business requirements to the Data Visualisations
-colons can be used to align columns.
 
 | Business Requirement       | Visualization Type  |  Purpose   |
 | :-------------: |:-------------:| :-----:|
@@ -139,7 +149,12 @@ The content has been referred by open source eg. google site. The dataset referr
 
 ### Content 
 
-- The Text was taken from Kaggle and written after analysing the dataset and business requiremnts for data insights to visulise reports on Insurance cost influenced by different attributes for future decision making.
+*  The Text was taken from Kaggle and written after analysing the dataset and business requiremnts for data insights to visulise reports on Insurance cost influenced by different attributes for future decision making.
+* some of references sites used for coding-
+  https://plotly.com/python/
+  https://feature-engine.trainindata.com/en/latest/user_guide/imputation/index.html
+  https://seaborn.pydata.org/
+  https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html
 
 ### Media
 
