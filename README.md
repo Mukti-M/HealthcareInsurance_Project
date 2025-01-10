@@ -1,9 +1,8 @@
-# Project Healthcare Insurance
+## Project - Healthcare Insurance
 
 **Healthcare Insurance Project** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
 
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
+<img src="https:/workspace/HealthcareInsurance_Project/HealthInsurance.jpg" alt="Healthcare Insurance Project" width="600" height="200" style="border:5px solid;">
 
 ## Dataset Content
 * Dataset Source (https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance).
@@ -48,16 +47,34 @@ Hypothesis 4:
 * Visualisation of data insights reports helps to make business decisions and improve efficiency.
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+* Create new features such as body mass index (BMI) categories.
+* Display basic statistics such as average insurance charges by age, gender, and region.
+* Visualise correlations between different attributes and insurance charges.
+* Develop and visualise predictive reports for estimating insurance costs.
+* Visualise the impact of geographic regions on insurance charges.
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* Correlation Analysis : Visualise correlations between different attributes and insurance charges.
-* Predictive Analysis : Develop and visualise predictive reports for estimating insurance costs.
-* Geographic Analysis : Visualise the impact of geographic regions on insurance charges.
+* Descriptive Statistics gives uderstanding of basic statistics such as average insurance charges by age, gender, and region
+* Correlation Analysis used to Visualise correlations between different attributes and insurance charges.
+* Predictive Analysis used to  Develop and visualise predictive reports for estimating insurance costs.
+* Geographic Analysis used to Visualise the impact of geographic regions on insurance charges.
 
 ## Ethical considerations
 * Follow GDPR guideline to protect dataset and maintain data integrity of person.
+* Engage with healthcare professionals, insurance industry experts, and ethicists to 
+  ensure the project aligns with ethical and industry standards.
+* Data Transperncy
+   - Clearly explain the model's purpose, limitations, and      
+     decision-making process to stakeholders and users.
+   - Provide interpretability for predictions, especially in cases where decisions might significantly impact people's lives.
+* Avoid using predictions to unfairly increase premiums for high-risk individuals 
+  without offering pathways for mitigating risks (e.g., smoking cessation programs).
+* Dataset Transparency
+	Acknowledge the source of the dataset and describe any modifications made.
+     Disclose limitations in the data, such as missing values, potential inaccuracies, or limited representation of certain groups.
+* Encourage periodic re-evaluation of the model as new data becomes available to 
+  maintain accuracy and fairness.
+
 
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
@@ -74,19 +91,6 @@ Hypothesis 4:
 * What challenges did you face, and what strategies were used to overcome these challenges?
 * What new skills or tools do you plan to learn next based on your project experience? 
 
-## Deployment
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
 
 ## Main Data Analysis Libraries
@@ -102,20 +106,15 @@ Hypothesis 4:
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+The content has been referred by open source eg. google site. The dataset referred from kaggle open source site and study material referred by LMS and SME data coach learning sessions.
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The Text was taken from Kaggle and written after analysing the dataset and business requiremnts for data insights to visulise reports on Insurance cost influenced by different attributes for future decision making.
 
 ### Media
 
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
+- The images used for the gallery page were taken from open-source site like Google. 
 
 
 ## Acknowledgements (optional)
