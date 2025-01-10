@@ -119,4 +119,5 @@ Hypothesis 4:
 
 
 ## Acknowledgements (optional)
-* Thank you code Institute  the people who provided support through this project.
+* Thank you code Institute giving this opportunity for explore dataset using different analsyis tools and visualise reports.
+Thank you Vasi guided me to trubleshoot the issue. Thank you Neil for his coaching and guidance on Data analytics concepts which help to understand various tools, library to analyse dataset and Visualise user interactive reports for future decision making. Thank you all my classmates who provided support through this project.
