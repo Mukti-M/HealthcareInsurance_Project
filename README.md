@@ -7,24 +7,45 @@
 
 ## Dataset Content
 * Dataset Source (https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance).
-This Dataset contain information about personal attributes, Geographic factors and their impact on insurance charges. It also helps to understand data insights for different attributes which influence insurance cost.
-
+This dataset contains information on the relationship between personal attributes (age, gender, BMI, family size, smoking habits), geographic factors, and their impact on medical insurance charges. It can be used to study and analyse how these features influence insurance costs and implementing various analysis tools to develop different models for estimating healthcare expenses.
 
 ## Business Requirements
 * Describe your business requirements
-Descriptive Statistics : Display basic statistics such as average insurance charges by age, gender, and region.
-Correlation Analysis : Visualise correlations between different attributes and insurance charges.
-Predictive Analysis : Develop and visualise predictive reports for estimating insurance costs.
-Geographic Analysis : Visualise the impact of geographic regions on insurance charges.
+Descriptive Statistics which Display basic statistics such as average insurance charges by age, gender, and region.
+Correlation Analysis to  Visualise correlations between different attributes and insurance charges.
+Predictive Analysis to  Develop and visualise predictive reports for estimating insurance costs.
+Geographic Analysis to Visualise the impact of geographic regions on insurance charges.
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+* Hypothesis 1:
+Statement: Smokers have higher insurance charges compared to non-smokers.
+	Validation:
+     Perform a statistical comparison between the average charges of smokers and non-smokers.
+     Visualize the difference using boxplots or bar plots.
+Hypothesis 2:
+Statement: BMI significantly influences insurance charges, with higher BMI leading to higher charges.
+•	Validation:
+	          Use correlation analysis to measure the relationship between BMI and charges.
+              Create a regression model and assess the significance of BMI as a predictor.
+Hypothesis 3:
+•	Statement: "Insurance charges vary significantly across geographic regions."
+•	Validation:
+               Visualize regional variations with bar charts or boxplots.
+Hypothesis 4:
+•	Statement: "Age and number of children have a smaller impact on charges compared to smoking status and BMI."
+•	Validation:
+	           Build a decision tree or random forest model to evaluate feature importance.
+	           Analyze the effect sizes of these variables in a regression model.
+
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+* Ensure Dataset is properly downloded and saved properly.
+* Loading the dataset using pandas and Cleaned data handling the missing values. Transformed the cleaned dataset into new dataframe.
+* Updating Kanban Board to see status of project workflow.
+* Adding new feature category 'bmi' as per business requirement.
+* Apply different analysis method to visualise data insights for insurance cost influenced by other data attributes.
+* Visualisation of data insights reports helps to make business decisions and improve efficiency.
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
