@@ -52,9 +52,9 @@ colons can be used to align columns.
 | Business Requirement       | Visualization Type  |  Purpose   |
 | :-------------: |:-------------:| :-----:|
 | Identify high-cost regions | Treemap | how regions with the highest average insurance charges. |
-| Understand the impact of region     | Scatterplot, Boxplot  | Compare insurance charges for different regions. |
-| Correlation analysis of factors | Heatmap   | Highlight relationships between attributes like BMI, age, and charges.|
-| Analyse age-related trends in costs | Line chart or bar chart  |  Display changes in average charges across different age groups.|
+| Understand the impact of region     | Scatterplot, Boxplot, Barplot | Compare insurance charges for different regions. |
+| Correlation analysis of factors | Heatmap, Scatterplot  | Highlight relationships between attributes like BMI, age, and charges.|
+| Analyse age-related trends in costs | Area Plot, Bar chart  |  Display changes in average charges across different age groups.|
 
 ## Analysis techniques used
 * Descriptive Statistics gives uderstanding of basic statistics such as average insurance charges by age, gender, and region
@@ -73,26 +73,53 @@ colons can be used to align columns.
 * Avoid using predictions to unfairly increase premiums for high-risk individuals 
   without offering pathways for mitigating risks (e.g., smoking cessation programs).
 * Dataset Transparency
-	Acknowledge the source of the dataset and describe any modifications made.
-     Disclose limitations in the data, such as missing values, potential inaccuracies, or limited representation of certain groups.
+	- Acknowledge the source of the dataset and describe any modifications made.
+  -  Disclose limitations in the data, such as missing values, potential inaccuracies, or limited representation of certain groups.
 * Encourage periodic re-evaluation of the model as new data becomes available to 
   maintain accuracy and fairness.
 
 
 ## Development Roadmap
-* Some of challenges did face while creating new feature and Visualising Treemap Reports for data insights, with the help of and what strategies were used to overcome these challenges?
+* Challenges faced during working project -
+Data Quality Challenges
+      * Missing Values: The dataset contained missing entries across several columns.
+       Duplicate Records: Presence of duplicate rows could skew analysis and model performance.
+      * Incorrect Data Types: Some categorical variables were not properly encoded, leading to errors in processing.
+      * Outliers and Inconsistent Data: Extreme values in variables like BMI and charges could distort statistical analyses and model training
+Strategies implemented to handle Data processing challanges -
+Data Cleaning
+    *  Handling Missing Values- isnull().sum(). Utilized median imputation for numerical columns and mode imputation for categorical columns to maintain data integrity without introducing bias.
+    *  Removing Duplicates- Employed drop_duplicates() in pandas to eliminate duplicate records, ensuring the dataset's uniqueness.
+Data encoding -
+    *  Categorical Variable Encoding - Converted categorical variables (sex, smoker, region) to appropriate formats using one-hot encoding and label encoding to facilitate seamless integration into machine learning models.
+    *  Feature Engineering- Created new features such as BMI categories to enhance the model's ability to capture nonlinear relationships.
+Statistical Analysis - Performed exploratory data analysis (EDA) to identify outliers using box plots and scatter plots.
+Technical Challenges - 
+      * Library Deprecations and Warnings- Encountered deprecation warnings from libraries like pandas and plotly, which could disrupt the workflow.
+      * Code Errors and Bugs- Faced various errors such as KeyError, TypeError, and          IndentationError during data manipulation and visualization stages.
+      * Visualization Constraints- Difficulty in customizing visualizations (e.g., resizing images, 
+      managing hover data) using Markdown and Plotly.
+* Strategies implemented to overcome Technical challenges 
+Staying Updated- 
+       * Library Updates - Regularly updated libraries (plotly, pandas, etc.) to their latest versions to benefit from bug fixes and updated functionalities.
+       * Error Handling and Debugging:
+       * Systematic Debugging - Utilized detailed error messages to identify and rectify issues, such as replacing incorrect functions (pd.get_var to pd.get_dummies) and fixing syntax errors.
+       * Code Reviews and Testing - Implemented thorough code reviews and debugging to catch and resolve bugs early in the development process.
+       * Warnings Management: Employed the warnings module in Python to selectively ignore non-critical warnings, ensuring a cleaner output without suppressing important alerts.
+
 * Would like to learn differnt tools for analysing the dataset to visualise more detailed reports for better undestanding for data insights which beneficial for accuracy in decision making process.
 
 ## Main Data Analysis Libraries
 *import numpy as np    # importing numpy functions
-*import pandas as pd   # panda functions
+*import pandas as pd   # importing panda functions
 *import matplotlib.pyplot as plt  # importing for plotting different analysis visualisation
-*import seaborn as sns            # built in libraryoffers built-in themes and colour palettes for styling matplotlib graphics to differtiate data insight for better understanding.
-*sns.set_style('whitegrid')
+*import seaborn as sns            ## built in libraryoffers built-in themes and colour palettes for 
+                                    styling matplotlib graphics to differtiate data insight for better understanding
+*sns.set_style('whitegrid')       # setting up style 
 *from sklearn.pipeline import Pipeline
-*from feature_engine.encoding import OneHotEncoder
+*from feature_engine.encoding import OneHotEncoder   #  Categorical Variable Encoding
 *import plotly.express as px     # importing for interacive web based plotting different analysis visualisation
-
+* import warnings   # to suppress non critical warnings if any
 
 ## Credits 
 
