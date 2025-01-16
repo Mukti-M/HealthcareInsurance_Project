@@ -6,7 +6,7 @@
 
 ## Dataset Content
 * Dataset Source (https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance).
-This dataset contains information on the relationship between personal attributes (age, gender, BMI, family size, smoking habits), geographic factors, and their impact on medical insurance charges. It can be used to study and analyse how these features influence insurance costs and implementing various analysis tools to develop different models for estimating healthcare expenses.
+This dataset contains information on the relationship between personal attributes (age, gender, BMI,smoking habits), geographic factors, and their impact on medical insurance charges. It can be used to study and analyse how these features influence insurance costs and implementing various analysis tools to develop different models for estimating healthcare expenses.
 
 ## Business Requirements
 * Describe your business requirements
