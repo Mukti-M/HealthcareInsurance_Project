@@ -160,6 +160,6 @@ The content has been referred by open source eg. google site. The dataset referr
 
 - The images used for the gallery page were taken from open-source site like Google. 
 
-## Acknowledgements (optional)
+## Acknowledgements
 * Thank you code Institute giving this opportunity for explore dataset using different analsyis tools and visualise reports.
 Thank you Vasi who guided and supported throughout to trubleshoot the issue. Thank you Neil for his coaching and guidance on Data analytics concepts which help to understand various tools, library, function tools to analyse dataset and Visualise user interactive reports for future decision making. Thank you all my classmates who provided support through this project.
